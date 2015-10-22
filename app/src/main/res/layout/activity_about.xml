@@ -1,0 +1,23 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.rachelboylson.urgent.About">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="          Welcome to Urgent!  This task management app is designed to help you breakdown your tasks into four categories: important and urgent, important and not urgent, unimportant and urgent, and unimportant and not urgent, rather than based on time.
+                 The purpose of basing tasks off of importance rather than time is based off of a quote from Eisenhower &quot;I have two kinds of problems, the urgent and the important. The urgent are not important, and the important are never urgent.&quot;  It is my hope that this app will help you manage your time more effectively."
+        android:id="@+id/textView11"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textSize="20dp"
+        android:layout_alignParentTop="true"
+        android:padding="15dp" />
+</RelativeLayout>

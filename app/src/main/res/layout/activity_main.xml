@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pattern"
+    android:padding="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="2" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:weightSum="2" >
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:layout_weight="1"
+                android:text="Important
+and
+Urgent"
+                android:id="@+id/f1"
+                android:textSize="20dp"
+                android:layout_margin="5dp"
+                android:onClick="IUButton"
+                android:clickable="true"
+                android:background="#64bbfbff" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textSize="20dp"
+
+                android:text="Important
+and
+Not Urgent"
+                android:id="@+id/f2"
+                android:background="#64bbfbff"
+                android:layout_margin="5dp"
+                android:onClick="INButton" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:textSize="20dp"
+
+            android:weightSum="2" >
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textSize="20dp"
+
+                android:text="Unimportant
+and
+Urgent"
+                android:id="@+id/f3"
+                android:onClick="UUButton"
+                android:background="#64bbfbff"
+                android:layout_margin="5dp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="20dp"
+
+                android:layout_weight="1"
+                android:text="Unimportant
+and
+Not Urgent"
+                android:id="@+id/f4"
+                android:onClick="UNButton"
+                android:background="#64bbfbff"
+                android:layout_margin="5dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/roundbutton"
+        android:id="@+id/textbox"
+        android:text="Incentive"
+        android:textSize="20dp"
+        android:paddingLeft="20dp"
+        android:paddingTop="55dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="55dp"
+        android:onClick="IncentiveButton"
+        android:textColor="#ffffff"
+        android:background="@drawable/roundbutton" />
+
+</FrameLayout>
